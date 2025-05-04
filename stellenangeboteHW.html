@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STELLENANGEBOTE</title>
+    <link rel="stylesheet" href="css/style4.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="navitems">
+        <div class="logo">
+            <img src="logo_transparent.png" alt="logo" width="220" height="220">
+
+        </div>
+        <a href="./index.html">Startseite</a>
+        <a href="./stellenangebote.html">Stellenangebote</a>
+        <a href="./aboutus.html">Über uns</a>
+        <div class="accountButton">
+            <a class="open-button" onclick="checkScreenSize()">mein Account</a>
+        </div>
+
+
+        <div class="search">
+            <form class="search1" action="action_page.php">
+                <input type="text" id="input" placeholder="suchen.." oninput="search();">
+            </form>
+        </div>
+    </div>
+
+    <section class="content">
+        <div class="items-content">
+            <div style="margin-bottom:20px; max-width: 746px;" class="filter">
+                Filter:
+                <a class="kats active" href="./stellenangebote.html">Alle</a>
+                <a class="kats" href="./stellenangeboteHW.html">Handwerk</a>
+                <a class="kats" href="./stellenangeboteIT.html">IT</a>
+                <a class="kats" href="./stellenangeboteKM.html">Kaufmännisch</a>
+                <a class="kats" href="./stellenangeboteAZ.html">Ausbildung</a>
+
+            </div>
+
+            <div class="job_jobs" style="max-width: 746px;">
+                <h1>Jobs:</h1>
+                <div class="job_jobs" style="max-width: 746px;">
+                    <div class="container-jobs clearfix" style="max-width: 746px;">
+                        <div class="content_job">
+                            <div class="logo_job">
+                            </div>
+                            <div class="text_job">
+                                <a class="title_job" href="./Stellenanzeigen_Unterseiten/KFZ-Mechatroniker.html">
+                                    KFZ-Mechatroniker (m/w/d)</a>
+                                <span class="time_job">Heute</span>
+                                <span class="unternehmen_job">
+                                    <strong>EasyFix GmbH</strong>
+                                    • Hanau
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="line_job">
+            <div class="job_jobs" style="max-width: 746px;">
+                <div class="container-jobs clearfix" style="max-width: 746px;">
+                    <br>
+                    <br>
+                    <div class="content_job">
+                        <div class="logo_job">
+                        </div>
+                        <div class="text_job">
+                            <a class="title_job" href="./Stellenanzeigen_Unterseiten/Schlosser.html">
+                                Schlosser (m/w/d)
+                            </a>
+                            <span class="time_job">Vor 5 Tagen</span>
+                            <span class="unternehmen_job">
+                                <strong>JOBMADE GmbH</strong>
+                                • Fulda
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="line_job">
+            <div class="job_jobs" style="max-width: 746px;">
+                <div class="container-jobs clearfix" style="max-width: 746px;">
+                    <br>
+                    <br>
+                    <div class="content_job">
+                        <div class="logo_job">
+                        </div>
+                        <div class="text_job">
+                            <a class="title_job" href="./Stellenanzeigen_Unterseiten/Zimmerer.html">
+                                Zimmerer (m/w/d)
+                            </a>
+                            <span class="time_job">Vor 6 Tagen</span>
+                            <span class="unternehmen_job">
+                                <strong>TT GmbH</strong>
+                                • Kassel
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="line_job">
+        </div>
+
+        <div class="form-popup" id="Formular">
+            <form action="/action_page.php" class="formular-container">
+                <h1>Login</h1>
+
+                <label for="email"><b>Bitte anmelden!</b></label>
+                <input type="text" placeholder="Email eingeben" name="email" required>
+
+                <label for="psw"><b>Passwort</b></label>
+                <input type="password" placeholder="Passwort eingeben" name="psw" required>
+
+                <button type="submit" class="btn">Anmelden</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Schließen</button>
+            </form>
+
+        </div>
+        <script>
+            //Skript Formular
+            function openForm() {
+                document.getElementById("Formular").style.display = "block";
+            }
+
+            function closeForm() {
+                document.getElementById("Formular").style.display = "none";
+            }
+
+            //Ausblenden des Formulars bei bestimmter Höhe
+            function checkScreenSize() {
+                if (window.innerHeight <= 590) {
+                    document.getElementById("Formular").style.display = "none";
+                } else {
+                    document.getElementById("Formular").style.display = "block";
+                }
+            }
+
+            window.addEventListener('resize', function () {
+                checkScreenSize();
+            });
+
+            checkScreenSize();
+        </script>
+    </section>
+
+    <div class="footer">
+
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        </ul>
+
+        <div class="text1">
+            <p>JOB-CONNECT. All rights reserved. 2024</p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function search() {
+            let input = document.getElementById("input").value;
+            let titles = document.getElementsByClassName("title_job");
+
+            for (let i = 0; i < titles.length; i++) {
+                let title = titles[i];
+                let originalText = title.textContent;
+
+                if (input !== "") {
+                    let regExp = new RegExp(input, "gi");
+                    title.innerHTML = originalText.replace(regExp, "<mark>$&</mark>");
+                } else {
+                    title.innerHTML = originalText;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

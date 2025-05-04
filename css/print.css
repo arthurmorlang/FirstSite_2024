@@ -1,0 +1,77 @@
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        margin-bottom: 0;
+        margin: 0 10px;
+    }
+
+    .navitems,
+    .text1,
+    .slide-content,
+    .column-right,
+    .footer,
+    .h1canvas,
+    .kats,
+    .filter,
+    .maps,
+    .content-standort,
+    .button_bewerbung,
+    .yellowh3 {
+        display: none;
+    }
+
+    .column-left h1 {
+        font-size: 24px;
+    }
+
+    .column-left p {
+        line-height: 1.8;
+        margin-top: 22px;
+    }
+
+    #Formular {
+        display: none !important;
+    }
+
+    .button-index {
+        display: none !important;
+    }
+
+    .aboutus h3 {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: #fdcc04;
+        text-underline-offset: 7px;
+        line-height: 1.8;
+        margin-top: 22px;
+        font-size: 18px;
+        margin-bottom: 22px;
+    }
+
+    .aboutus p {
+        line-height: 1.7;
+        font-size: 14px;
+    }
+
+    #jobCarouselCanvas{
+        display: none;
+    }
+    .job_jobs h1 {
+        font-size: 18px;
+    }
+
+    .job_jobs{
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .text-message i {
+        display: none;
+    }
+
+    .text-message{
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html,
+body {
+    font-size: 16px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fdcc04;
+    margin: 0 20px;
+    transition: color 0.3s ease;
+}
+
+#content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+
+.navitems {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 85px;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.navitems a {
+    text-decoration: none;
+    color: #fdcc04;
+    margin: 0 20px;
+    transition: color 0.3s ease;
+}
+
+.navitems i {
+    color: #fdcc04;
+}
+
+.navitems a:hover {
+    color: #ffffff;
+}
+
+
+
+.search input[type=text] {
+    width: 300px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+}
+
+form.search1 input[type=text] {
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.search {
+    margin: 7px;
+}
+
+.slide-content {
+    margin-top: 22px;
+    text-align: center;
+    padding: 0.01rem 26px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 60px;
+}
+
+.slide-content h1 {
+    padding-top: 35px;
+    height: 140px;
+    font-size: 50px;
+}
+
+.slide-yellow {
+    color: white !important;
+    background-color: #fdcc04 !important;
+}
+
+.slide-black {
+    color: white !important;
+    background-color: #333 !important;
+}
+
+.slide-white {
+    color: #333 !important;
+    background-color: #a8a8a8 !important;
+}
+
+@media screen and (max-width:600px) {
+    .slide-content h1 {
+        padding-top: 45px;
+        height: 140px;
+        font-size: 40px;
+    }
+
+}
+
+.aboutus h3 {
+    display: flex;
+    padding: 0.01rem 26px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #fdcc04;
+    text-underline-offset: 7px;
+    line-height: 1.8;
+    padding-top: 0px;
+    margin-top: 63px;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.aboutus p {
+    line-height: 1.7;
+    display: flex;
+    padding: 0.01rem 26px;
+    font-size: 18px;
+}
+
+
+/*Anmelde Formular für "mein Account" */
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 1px solid #fdcc04;
+    z-index: 9;
+}
+
+.formular-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.formular-container input[type=text],
+.formular-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.formular-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.formular-container .btn {
+    background-color: #fdcc04;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.formular-container .cancel {
+    background-color: #333
+}
+
+.formular-container .btn:hover,
+.open-button:hover {
+    opacity: 0.8;
+}
+
+
+.footer {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer form {
+    text-align: center;
+}
+
+.btn-footer {
+    background-color: #fdcc04 !important;
+    color: #333;
+}
+
+.text1 {
+    display: flex;
+    padding-bottom: 0;
+    margin-top: 30px;
+    justify-content: center;
+    font-size: smaller;
+}
