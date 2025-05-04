@@ -4,13 +4,16 @@ Erstes Frontend Projekt. JOB-CONNECT, eine lokale Jobbörse für Hessen.
 
 # Screenshots
 
-[1.pdf](https://github.com/user-attachments/files/20027904/1.pdf)
+<img width="1278" alt="Bildschirmfoto 2025-05-04 um 15 52 12" src="https://github.com/user-attachments/assets/23a6d226-1b7d-4596-a967-c339e15e1343" />
 
-[JOBBÖRSE | HESSEN.pdf](https://github.com/user-attachments/files/20027905/JOBBORSE.HESSEN.pdf)
+<img width="1278" alt="Bildschirmfoto 2025-05-04 um 15 52 30" src="https://github.com/user-attachments/assets/01ca00c8-44d4-441c-a5ca-01ba6f52f42f" />
 
-<img width="1280" alt="Bildschirmfoto 2025-05-04 um 15 49 04" src="https://github.com/user-attachments/assets/99d53856-fa40-41ed-ac7b-1eb0ea22dd9f" />
+<img width="1278" alt="Bildschirmfoto 2025-05-04 um 15 52 19" src="https://github.com/user-attachments/assets/abb1840b-e497-43e7-931a-6b05c2c8bb8a" />
 
-<img width="1280" alt="Bildschirmfoto 2025-05-04 um 15 49 11" src="https://github.com/user-attachments/assets/40a2c472-228f-4475-8292-7a383007a501" />
+<img width="1278" alt="Bildschirmfoto 2025-05-04 um 15 52 25" src="https://github.com/user-attachments/assets/4f039040-f27a-4d08-abf1-94209b62275b" />
+
+
+
 
 
 
