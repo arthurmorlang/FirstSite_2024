@@ -1,6 +1,10 @@
 # FirstSite_2024
 
-Erstes Frontend Projekt. JOB-CONNECT, eine lokale Jobbörse für Hessen.
+Erstes Frontend Projekt. JOB-CONNECT, eine lokale Jobbörse für Hessen. 
+
+# Disclaimer
+
+Alle Stellenangebote/Firmen/Kontaktinformationen in diesem Projekt sind fiktiv und dienen nur zur Demonstrationszwecken. 
 
 # Screenshots
 
